@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CH Jewellery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Jewellery CH store">
+  <link rel="preload" href="fonts/cormorant-garamond-600.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/cormorant-garamond-700.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/cormorant-garamond-italic.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/poppins-500.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/poppins-700.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/poppins-regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="page-header__top wrapper">
+      <p class="page-header__toggle-container"><button class="page-header__toggle" type="button"><span class="visually-hidden">Opened-closed button</span></button></p>
+
+      <div class="page-header__form page-header__form--desktop search-form">
+        <form>
+          <button class="search-form__button" type="submit"><svg class="search-form__button-image" width="14" height="14"><use xlink:href="img/sprite.svg#icon-magnifier"></use></svg><span class="visually-hidden">Search</span></button>
+          <label for="search-desk" class="visually-hidden">Введите для поиска</label>
+          <input type="search" placeholder="Type here to search" id="search-desk">
+        </form>
+      </div>
+
+      <p class="page-header__logo">
+        <a class="page-header__logo-link"><svg class="page-header__logo-image page-header__logo-image--main" width="66" height="66" aria-label="CH logo"><use xlink:href="img/sprite.svg#Logo-CH"></use></svg></a>
+      </p>
+
+      <div class="page-header__column">
+        <button class="page-header__link page-header__link--desktop page-header__login" type="button">Login</button>
+        <a class="page-header__link page-header__cart" href="#"><span class="page-header__cart-text">Cart <span>0</span></span><svg class="page-header__cart-image" width="18" height="16"><use xlink:href="img/sprite.svg#icon-cart"></use></svg></a>
+      </div>
+    </div>
+
+    <div class="page-header__bottom">
+      <div class="page-header__form page-header__form--tablet wrapper search-form">
+        <form>
+          <button class="search-form__button" type="submit"><svg class="search-form__button-image" width="16" height="16"><use xlink:href="img/sprite.svg#icon-magnifier"></use></svg><span class="visually-hidden">Search</span></button>
+          <label for="search-mobile" class="visually-hidden">Введите для поиска</label>
+          <input type="search" id="search-mobile">
+        </form>
+      </div>
+      <div class="page-header__link-container wrapper"><button class="page-header__login page-header__login--tablet" type="button">Login</button></div>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <h1 class="visually-hidden">Украшения</h1>
+    <div class="banner banner--main">
+      <div class="wrapper">
+        <p><b>Красота</b></p>
+        <p>специально для тебя</p>
+      </div>
+    </div>
+
+    <section class="questions wrapper">
+      <h2>Часто задаваемые вопросы</h2>
+
+      <div class="questions__container">
+        <div class="questions__item accordion accordion--close">
+          <p>Из каких материалов изготовлены украшения?</p>
+          <button class="questions__button" type="button"><span class="visually-hidden">Show answer</span></button>
+          <div class="questions__answer">
+            <p>Наши ювелирные изделия изготовлены из чистого золота, серебра или кожи.  Кроме того, некоторые ювелирные изделия содержат драгоценные и полудрагоценные камни и кристаллы.</p>
+          </div>
+        </div>
+
+        <div class="questions__item accordion">
+          <p>В какие страны существует доставка?</p>
+          <button class="questions__button" type="button"><span class="visually-hidden">Show answer</span></button>
+          <div class="questions__answer">
+            <p>Наши ювелирные изделия изготовлены из чистого золота, серебра или кожи.  Кроме того, некоторые ювелирные изделия содержат драгоценные и полудрагоценные камни и кристаллы.</p>
+          </div>
+        </div>
+
+        <div class="questions__item accordion">
+          <p>Какие имеются методы оплаты?</p>
+          <button class="questions__button" type="button"><span class="visually-hidden">Show answer</span></button>
+          <div class="questions__answer">
+            <p>Наши ювелирные изделия изготовлены из чистого золота, серебра или кожи.  Кроме того, некоторые ювелирные изделия содержат драгоценные и полудрагоценные камни и кристаллы.</p>
+          </div>
+        </div>
+
+        <div class="questions__item accordion">
+          <p>Могу я вернуть украшения, если они мне не подходят?</p>
+          <button class="questions__button" type="button"><span class="visually-hidden">Show answer</span></button>
+          <div class="questions__answer">
+            <p>Наши ювелирные изделия изготовлены из чистого золота, серебра или кожи.  Кроме того, некоторые ювелирные изделия содержат драгоценные и полудрагоценные камни и кристаллы.</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="instagram wrapper">
+      <h2></h2>
+    </section>
+
+    <footer class="page-footer">
+      <div class="page-footer__container wrapper">
+        <div class="page-footer__subscription subscription">
+          <p>Подготовлено html Academy</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/modules.js" defer=""></script>
+  
+  </body>
+</html>
